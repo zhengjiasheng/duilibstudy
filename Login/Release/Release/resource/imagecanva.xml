@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="640,480" mininfo="320,240" caption="0,0,0,35" sizebox="4,4,4,4"> <!--caption属性决定显示窗口可以拖动范围=标题栏范围 mininfo 属性决定了窗口最小大小，sizebox 属性是指定当鼠标移动到窗口边缘多少像素的时候显示拖放手势 -->
+	<Font shared="true" id="1" name="微软雅黑" size="18" />
+	<VerticalLayout>
+		<!-- 标题栏 -->
+		<HorizontalLayout height="35" bkcolor="#FFD6DBE9">
+			<!-- 标题 -->
+			<HorizontalLayout width="180">
+				<Control bkimage="title-logo.png" height="18" width="18" padding="8,8,8,0"/>
+				<Label text="图片画布" font="1" />
+			</HorizontalLayout>
+			<Control />
+			<!-- 最小化，最大化，关闭三个按钮 -->
+			<HorizontalLayout width="80">
+				<Button name="minbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+				<Button name="maxbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" hotimage="file='sys_dlg_max.png' source='26,0,52,18'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+				<Button name="restorebtn" visible="false" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_restore.png' source='52,0,78,17'" hotimage="file='sys_dlg_restore.png' source='26,0,52,17'" pushedimage="file='sys_dlg_restore.png' source='0,0,26,17'" />
+				<Button name="closebtn" maxwidth="45" maxheight="17" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" hotimage="file='sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<!-- 窗口内容区域 -->
+		<VerticalLayout bkcolor="#FFF8F8FF" inset="20,20,20,20">
+			<HorizontalLayout name="canvacontrol"></HorizontalLayout>
+			<HorizontalLayout height="30" padding="0,10,0,0">
+				<Control />
+				<Button name="lastimg" width="30" height="30" normalimage="last_normal_icon.png" hotimage="last_hover_icon.png" pushedimage="last_hover_icon.png"/>
+				<Button name="nextimg" width="30" height="30" normalimage="next_normal_icon.png" hotimage="next_hover_icon.png" pushedimage="next_hover_icon.png"/>
+				<Control />
+			</HorizontalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

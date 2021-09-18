@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="340,200" size="680,420" sizebox="4,4,6,6" roundcorner="5,5" caption="0,0,0,90"> <!-- 窗口的初始尺寸 -->
+	<Font shared="true" id="1" name="微软雅黑" size="16" />
+	<VerticalLayout bkcolor="#FFDDDDDD">
+		<!-- 窗口标题栏 -->
+		<HorizontalLayout bkcolor="#FFD6DBE9" height="36">
+			<!-- 标题 -->
+			<HorizontalLayout width="100">
+				<Label text="登录" height="20" padding="10,5,0,0" font="1"/>
+			</HorizontalLayout>
+			<Control />
+			<!-- 最小化，最大化，关闭三个按钮 -->
+			<HorizontalLayout width="100">
+				<Button name="minbtn" width="28" height="20" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+				<Button name="maxbtn" width="28" height="20" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" hotimage="file='sys_dlg_max.png' source='26,0,52,18'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
+				<Button name="closebtn" width="44" height="20" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" hotimage="file='sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<!-- 内容区 -->
+		<HorizontalLayout bkcolor="#FFC7EDCC" bkcolor2="#FF46A2D3"> <!-- 整个窗口的背景 -->
+			<Button name="closewindow" text="关闭窗口" width="60" height="40" bkcolor="#FF48464D" padding="20,20,20,20"/> 
+			<Button name="loginbtn" text="登录" width="60" height="40" bkcolor="#FF84ABB2" padding="20,20,20,20"/> 
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

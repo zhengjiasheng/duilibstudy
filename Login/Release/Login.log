@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/6/10 16:59:20。
+     1>项目“C:\C++Projects\study\duilib-master\Login\Login.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\include /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D UILIB_EXPORTS /D WIN32 /D NDEBUG /D _WINDOWS /D CURL_STATICLIB /D _MBCS /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\Login.pch" /Fo".\Release\\" /Fd".\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Login.cpp
+         Login.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C++Projects\study\duilib-master\bin\Login.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\libs kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C++Projects\study\duilib-master\bin\Login.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C++Projects\study\duilib-master\bin\Login.lib" /MACHINE:X86 /SAFESEH .\Release\Login.res
+         .\Release\ImageCanva.obj
+         .\Release\json_utils.obj
+         .\Release\Login.obj
+         .\Release\stdafx.obj
+         .\Release\string_utils.obj
+         .\Release\UICustomCanvas.obj
+            正在创建库 C:\C++Projects\study\duilib-master\bin\Login.lib 和对象 C:\C++Projects\study\duilib-master\bin\Login.exp
+         正在生成代码
+         已完成代码的生成
+         Login.vcxproj -> C:\C++Projects\study\duilib-master\bin\Login.exe
+     1>已完成生成项目“C:\C++Projects\study\duilib-master\Login\Login.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.88

@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/5/20 20:27:24。
+     1>项目“C:\C++Projects\study\duilib-master\LoginTest\LoginTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\C++Projects\study\duilib-master\LoginTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\LoginTest.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt LoginTest.cpp
+         LoginTest.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C++Projects\study\duilib-master\\Release\LoginTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\C++Projects\study\duilib-master\LoginTest\libs" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\C++Projects\study\duilib-master\\Release\LoginTest.pdb" /SUBSYSTEM:WINDOWS /STACK:"16000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C++Projects\study\duilib-master\\Release\LoginTest.lib" /MACHINE:X86 /SAFESEH Release\LoginTest.res
+         Release\LoginTest.obj
+         Release\stdafx.obj
+         Release\switchImg.obj
+         正在生成代码
+         已完成代码的生成
+         LoginTest.vcxproj -> C:\C++Projects\study\duilib-master\\Release\LoginTest.exe
+     1>已完成生成项目“C:\C++Projects\study\duilib-master\LoginTest\LoginTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.80

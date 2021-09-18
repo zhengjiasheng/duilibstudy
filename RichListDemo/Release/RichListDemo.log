@@ -1,0 +1,29 @@
+﻿生成启动时间为 2021/5/26 18:36:30。
+     1>项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”(1)正在节点 2 上生成“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(2) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     2>已完成生成项目“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(GetTargetPath 个目标)的操作。
+     1>项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”(1)正在节点 2 上生成“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(2:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     2>已完成生成项目“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”(1)正在节点 2 上生成“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(2:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     2>已完成生成项目“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\C++Projects\study\duilib-master\bin\RichListDemo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Release\RichListDemo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\C++Projects\study\duilib-master\bin\RichListDemo.lib" /MACHINE:X86 /SAFESEH Release\RichListDemo.res
+         Release\RichListDemo.obj
+         Release\RichListWnd.obj
+         Release\stdafx.obj
+         "C:\C++Projects\study\duilib-master\Lib\DuiLib.lib"
+         正在生成代码
+         已完成代码的生成
+         RichListDemo.vcxproj -> C:\C++Projects\study\duilib-master\bin\RichListDemo.exe
+     1>项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”(1)正在节点 2 上生成“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(2:4) (GetCopyToOutputDirectoryItems 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     2>已完成生成项目“C:\C++Projects\study\duilib-master\DuiLib\DuiLib.vcxproj”(GetCopyToOutputDirectoryItems 个目标)的操作。
+     1>已完成生成项目“C:\C++Projects\study\duilib-master\RichListDemo\RichListDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97

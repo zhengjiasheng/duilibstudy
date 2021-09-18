@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="600,400" size="1000,600"> <!-- 窗口的初始尺寸 -->
+	<VerticalLayout bkcolor="#FF99A49E">
+		<HorizontalLayout bkcolor="#FFC7EDCC" bkcolor2="#FF46A2D3" height="200"> <!-- 整个窗口的背景 -->
+			<Button name="closebtn" text="退出" width="60" height="40" bkcolor="#FFFF3333" padding="20,20,20,20"/> <!-- 按钮的属性，如名称、文本 padding：左、上、右、下 -->
+			<Button name="closewindow" text="关闭窗口" width="60" height="40" bkcolor="#FF48464D" padding="20,20,20,20"/> 
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
